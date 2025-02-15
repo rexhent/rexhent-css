@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <p>My Website</p>
+        </div>
+        <div class="header-right">
+            <a>Home</a>
+            <a>Login</a>
+            <a>Register</a>
+        </div>
+    </header>
+    <p class="text">Hello World!</p>
+    <button id="btn">
+        Hey
+    </button>
+    <script>
+        btn = document.getElementById("btn");
+
+        let count = 1;
+
+        btn.addEventListener("click", function() {
+            btn.innerHTML = count++;
+        })
+    </script>
+</body>
+</html>
