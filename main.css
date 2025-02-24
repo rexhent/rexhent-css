@@ -1,17 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.text {
+* {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
 }
 
 
-#btn {
-    color: grey;
+.btn {
+    background-color: #87CEEB;
     padding: 5px;
     border: none;
     border-radius: 5px;
-    color: black;
+    color: white;
 }
 
 header {
